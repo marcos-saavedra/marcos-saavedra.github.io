@@ -1,0 +1,46 @@
+<body>
+	<div class="login">
+    <form  (ngSubmit)="btnAceptar()">
+		<div class="login-screen">
+            <div>
+   
+                <img src="assets/img/hospital.jpg" style="width: 115.5%; margin-left: -20px; border-radius: 10px 10px 0px 0px" /><br />
+            </div>
+			<br>
+
+			<div >
+				<div class="control-group">
+				<input type="text" class="login-field" value="" placeholder="nombre" id="login-name">
+				<label class="login-field-icon fui-user" for="login-name"></label>
+                </div>
+                
+                <div class="control-group">
+                    <input type="text" class="login-field" value="" placeholder="apellido" id="login-apellido">
+                    <label class="login-field-icon fui-user" for="login-name"></label>
+                    </div>
+
+                    <div class="control-group">
+                        <input type="text" class="login-field" value="" placeholder="Puesto Laboral" id="login-Puesto">
+                        <label class="login-field-icon fui-user" for="login-name"></label>
+                        </div>
+
+                        <div class="control-group">
+                            <input type="text" class="login-field" value="" placeholder="correo" id="login-correo">
+                            <label class="login-field-icon fui-user" for="login-name"></label>
+                            </div>
+
+				<div class="control-group">
+				<input type="password" class="login-field" value="" placeholder="contraseña" id="login-pass">
+				<label class="login-field-icon fui-lock" for="login-pass"></label>
+        </div>
+         
+<button
+type="submit">
+ <a class="btn btn-outline-secondary btn-lg btn-block" >Agregar</a>
+</button>
+<li><a routerLink="../Login">Login</a></li> 
+			</div>
+    </div>
+  </form>
+	</div>
+</body>

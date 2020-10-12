@@ -1,0 +1,69 @@
+<form (ngSubmit)="btnCerrar()">
+<div class="col-12" style="margin-top:30px;">
+
+    <table class="striped highlight black-text table table-striped">
+      <thead class="thead-dark" >
+       
+        <th style="background-color: green !important;">Nombre</th>
+        <th style="background-color: green !important;">Apellido</th>
+        <th style="background-color: green !important;">Fecha</th>
+        <th style="background-color: green !important;">Doctor</th>
+        <th style="background-color: green !important;">Tipo de consulta</th>
+        <th style="background-color: green !important;">Operaciones</th>
+      </thead>
+      <tbody>
+        <tr>
+        <td >Pedro</td>
+        <td >Perez</td>
+        <td >18/05/2020</td>
+        <td >Juan</td>
+        <td></td>
+        <td>
+          <a  style="cursor:pointer; color:blue;" title="Actualizar Cita">
+            <i class="material-icons">edit</i>
+          </a>
+          <a style="cursor:pointer; color:red;" title="Eliminar Cita">
+            <i class="material-icons">delete</i>
+          </a>
+        </td></tr>
+        
+        <tr>
+          <td >Ramon</td>
+          <td >Garcia</td>
+          <td >19/05/2020</td>
+          <td >Raul</td>
+          <td></td>
+          <td>
+            <a  style="cursor:pointer; color:blue;" title="Actualizar Cita">
+              <i class="material-icons">edit</i>
+            </a>
+            <a style="cursor:pointer; color:red;" title="Eliminar Cita">
+              <i class="material-icons">delete</i>
+            </a>
+          </td></tr>
+
+          <tr>
+            <td >Marcos</td>
+            <td >Flores</td>
+            <td >19/05/2020</td>
+            <td >Francisco</td>
+            <td></td>
+            <td>
+              <a  style="cursor:pointer; color:blue;" title="Actualizar Cita">
+                <i class="material-icons">edit</i>
+              </a>
+              <a style="cursor:pointer; color:red;" title="Eliminar Cita">
+                <i class="material-icons">delete</i>
+              </a>
+            </td></tr>
+        
+      </tbody>
+    </table>
+   
+    <button
+    type="submit" >
+     <a class="btn btn-outline-secondary btn-lg btn-block"  >Cerrar</a>
+    </button>
+      <li><a routerLink="../RegisterPatient">Registro de pacientes</a></li>
+  </div>
+</form>

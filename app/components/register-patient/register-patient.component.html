@@ -1,0 +1,44 @@
+<body>
+	<div class="login">
+    <form (ngSubmit)="btnRegisterPatient()">
+		<div class="login-screen">
+			<div>
+                <img src="assets/img/hospital.jpg" style="width: 115.5%; margin-left: -20px; border-radius: 10px 10px 0px 0px" /><br />
+            </div>
+			<br>
+<div>
+				<div class="control-group">
+				<input type="text" class="login-field" value="" placeholder="nombre" id="login-name">
+				<label class="login-field-icon fui-user" for="login-name"></label>
+				</div>
+
+				<div class="control-group">
+				<input type="text" class="login-field" value="" placeholder="apellido" id="login-apellido">
+				<label class="login-field-icon fui-lock" for="login-name"></label>
+        </div>
+
+        <div class="control-group">
+            <input type="text" class="login-field" value="" placeholder="Fecha" id="login-Fecha">
+            <label class="login-field-icon fui-lock" for="login-name"></label>
+    </div>
+
+    <div class="control-group">
+        <input type="text" class="login-field" value="" placeholder="Doctor" id="login-Doctor">
+        <label class="login-field-icon fui-lock" for="login-name"></label>
+</div>
+
+<div class="control-group">
+	<input type="text" class="login-field" value="" placeholder="Tipo de consulta" id="login-Tipo">
+	<label class="login-field-icon fui-user" for="login-name"></label>
+	</div>
+       
+<button
+type="submit">
+ <a class="btn btn-outline-secondary btn-lg btn-block" >Agregar</a>
+</button>
+<li><a routerLink="../Records">Historial</a></li>
+			</div>
+    </div>
+  </form>
+	</div>
+</body>
